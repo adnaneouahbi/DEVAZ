@@ -2,516 +2,497 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Desktop App </title>
-  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
-  <!-- Bootstrap , fonts & icons  -->
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
-  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
-  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
-  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <!-- Plugin'stylesheets  -->
-  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
-  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
-  <!-- Vendor stylesheets  -->
-  <link rel="stylesheet" href="./css/main.css">
-  <!-- Custom stylesheet -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOI App Landing Page</title>
+    <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
-  <div class="site-wrapper overflow-hidden position-relative">
-    <!-- Site Header -->
-    <!-- Preloader -->
-    <!-- <div id="loading">
-    <div class="preloader">
-     <img src="./image/preloader.gif" alt="preloader">
-   </div>
-   </div>    -->
-    <!--Site Header Area -->
-    <header class="site-header site-header--menu-center dark-mode-texts landing-17-menu  site-header--absolute site-header--sticky">
-      <div class="container">
-        <nav class="navbar site-navbar">
-          <!-- Brand Logo-->
-          <div class="brand-logo">
-            <a href="#">
-              <!-- light version logo (logo must be black)-->
-              <img src="image/logo/logo-black.png" alt="" class="light-version-logo">
-              <!-- Dark version logo (logo must be White)-->
-              <img src="image/logo/logo-white.png" alt="" class="dark-version-logo">
-            </a>
-          </div>
-          <div class="menu-block-wrapper">
-            <div class="menu-overlay"></div>
-            <nav class="menu-block" id="append-menu-header">
-              <div class="mobile-menu-head">
-                <div class="go-back">
-                  <i class="fa fa-angle-left"></i>
-                </div>
-                <div class="current-menu-title"></div>
-                <div class="mobile-menu-close">&times;</div>
-              </div>
-              <ul class="site-menu-main">
-                <li class="nav-item nav-item-has-children">
-                  <a href="#" class="nav-link-item drop-trigger">Dropdowns <i class="fas fa-angle-down"></i>
-                  </a>
-                  <ul class="sub-menu" id="submenu-9">
-                    <li class="sub-menu--item">
-                      <a href="#">Dropdown 01</a>
-                    </li>
-                    <li class="sub-menu--item">
-                      <a href="#">Dropdown 02</a>
-                    </li>
-                    <li class="sub-menu--item">
-                      <a href="#">Dropdown 03</a>
-                    </li>
-                    <li class="sub-menu--item">
-                      <a href="#">Dropdown 04</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link-item">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://uxtheme.net/product-support/" class="nav-link-item">Support</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="header-btns  header-btn-l-17 ms-auto d-none d-xs-inline-flex align-items-center">
-            <a class="btn sign-in-btn focus-reset" href="#">
-              Sign in
-            </a>
-            <a class="start-trail-btn btn focus-reset" href="#">
-              Start free trail
-            </a>
-          </div>
-          <!-- mobile menu trigger -->
-          <div class="mobile-menu-trigger">
-            <span></span>
-          </div>
-          <!--/.Mobile Menu Hamburger Ends-->
-        </nav>
-      </div>
-    </header>
-    <!-- navbar- -->
-    <!-- Hero Area -->
-    <div class="hero-area-l-17 position-relative">
-      <div class="container">
-        <div class="row position-relative justify-content-center">
-          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-            <div class="content text-center">
-              <h1>Manage your team, faster!</h1>
-              <p>Create custom landing pages with Shade that convert more visitors than any website.</p>
-              <a href="#" class="btn">Start free 14 days trial</a>
-              <span>No credit card required</span>
-            </div>
-          </div>
-          <div class="col-xl-8 col-lg-9 order-lg-1 order-0">
-            <div class="hero-area-image">
-              <img src="image/l8/hero-img.png" alt="" class="w-100">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Feature Area -->
-    <div class="feature-area-l-17 position-relative">
-      <div class="container">
-        <div class="row feature-area-l-17-items justify-content-center text-center">
-          <div class="col-lg-4 col-md-6 col-sm-9">
-            <div class="single-features single-border position-relative">
-              <div class="circle-dot-1">
-                <i class="fas fa-circle"></i>
-              </div>
-              <h4>Single Platform</h4>
-              <p>Create custom landing pages with
-                Shade that convert more visitors than any website.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-9">
-            <div class="single-features single-border position-relative">
-              <div class="circle-dot-2">
-                <i class="fas fa-circle"></i>
-              </div>
-              <h4>Faster Communication</h4>
-              <p>Create custom landing pages with
-                Shade that convert more visitors than any website.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-9">
-            <div class="single-features">
-              <div class="circle-dot-3">
-                <i class="fas fa-circle"></i>
-              </div>
-              <h4>Everything in One Place</h4>
-              <p>Create custom landing pages with
-                Shade that convert more visitors than any website.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Content Area 1-->
-    <div class="content-area-l-17-1">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-xl-10 col-lg-12">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-lg-6 col-md-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-                <div class="content-img position-relative">
-                  <div class="image-1">
-                    <img src="image/l8/content-image-1.png" alt="">
-                  </div>
-                  <div class="image-2">
-                    <img src="image/l8/content-image-2.png" alt="">
-                  </div>
-                </div>
-              </div>
-              <div class="offset-xxl-1 col-xxl-5 col-xl-6 col-lg-6 col-md-8" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-                <div class="content section-heading-11">
-                  <h2> Manage everything faster in single place.</h2>
-                  <p>Create custom landing pages with
-                    Shade that convert more visitors than any website. With lots of unique blocks, you can easily build a
-                    page without coding.</p>
-                  <a href="#" class="btn focus-reset">Start free 14 days trial</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Content Area 2-->
-    <div class="content-area-l-17-2">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-xl-10 col-lg-12">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-1" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-                <div class="content section-heading-11">
-                  <h2> Manage everything faster in single place.</h2>
-                  <p>Create custom landing pages with
-                    Shade that convert more visitors than any website. With lots of unique blocks, you can easily build a
-                    page without coding.</p>
-                  <a href="#" class="btn focus-reset">Start free 14 days trial</a>
-                </div>
-              </div>
-              <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-                <div class="content-img position-relative">
-                  <div class="image-1">
-                    <img src="image/l8/content-image-3.png" alt="">
-                  </div>
-                  <div class="image-2">
-                    <img src="image/l8/content-image-4.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Video Area-->
-    <div class="video-area-l-17">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-12">
-            <div class="video-content text-center">
-              <a data-fancybox="" href="https://www.youtube.com/embed/9yc1lfFZX-I"><i
-              class="fas fa-play font-size-7"></i></a>
-              <h2>We help you to be successful</h2>
-              <p>Create custom landing pages with
-                Shade that convert more visitors than any website. With lots of unique blocks, you can easily build a page
-                without coding.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Pricing Area-->
-    <div class="pricing-area-l-17 position-relative overflow-hidden">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-lg-8 text-center" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
-            <div class="content section-heading-11">
-              <h2>Choose a plan to start</h2>
-              <p>Wireframes are generally created by business analysts, user experience designers, developers, visual
-                designers, and by those with expertise</p>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center" id="table-price-value" data-pricing-dynamic data-value-active="monthly">
-          <div class="col-md-12 pricing-main-area-l-17 text-center">
-            <div class="toggle-btn d-inline-block  justify-content-center">
-              <a class="btn-toggle btn-toggle-2 d-flex price-deck-trigger" data-pricing-trigger data-target="#table-price-value" href="javascript:">
-                <span class="round"></span>
-              </a>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-5 col-md-6 col-sm-8">
-            <div class="single-price" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-              <div class="price-top justify-content-between">
-                <span>Basic</span>
-              </div>
-              <div class="main-price">
-                <div class="price d-flex position-relative ">
-                  <span class="d-inline-block dynamic-value">$</span>
-                  <h2 class="d-inline-block dynamic-value" data-active="15" data-monthly="19" data-yearly="199"><span
-                  class="dynamic-value" data-active="/ month" data-monthly="/ month" data-yearly="/year"></span></h2>
-                </div>
-              </div>
-              <p>Good for small business launching their products less then once a year</p>
-              <div class="price-body pt-8">
-                <ul class="pricing-list list-unstyled">
-                  <li> <i class="icon icon-check-2-2"></i> Unlimited Blocks</li>
-                  <li> <i class="icon icon-check-2-2"></i> 5GB Clould Storages</li>
-                  <li><del> <i class="icon icon-check-2-2"></i> Custom Domain Names</del></li>
-                  <li><del> <i class="icon icon-check-2-2"></i>Unlimited Emails</del></li>
-                </ul>
-              </div>
-              <div class="price-btn">
-                <a class="btn" href="#">Start free 14 days trial</a>
-                <p>No credit card required</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-5 col-md-6 col-sm-8">
-            <div class="single-price popular-pricing popular-pricing-3 position-relative" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-              <div class="price-top justify-content-between">
-                <span>Pro</span>
-              </div>
-              <div class="main-price">
-                <div class="price d-flex position-relative">
-                  <span class="d-inline-block dynamic-value ">$</span>
-                  <h2 class="d-inline-block dynamic-value" data-active="15" data-monthly="29" data-yearly="299"> <span
-                  class="dynamic-value" data-active="/  month" data-monthly="/ month" data-yearly="/year"></span></h2>
-                </div>
-              </div>
-              <p>Good for small business launching their products less then once a year</p>
-              <div class="price-body">
-                <ul class="pricing-list list-unstyled">
-                  <li> <i class="icon icon-check-2-2"></i> Unlimited Blocks</li>
-                  <li> <i class="icon icon-check-2-2"></i> 5GB Clould Storages</li>
-                  <li> <i class="icon icon-check-2-2"></i> Custom Domain Names</li>
-                  <li> <i class="icon icon-check-2-2"></i>Unlimited Emails</li>
-                </ul>
-              </div>
-              <div class="price-btn">
-                <a class="btn" href="#">Start free 14 days trial</a>
-                <p>No credit card required</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Brand Area-->
-    <div class="brand-area-l-17">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-9 col-lg-11 col-md-12">
-            <div class="content text-center">
-              <p>We are proud to have some big brands as our customer</p>
-            </div>
-            <div class="brand-area-l-17-items d-flex justify-content-center justify-content-xl-between align-items-center flex-wrap ">
-              <div class="single-brand " data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
-                <img src="image/l8/brand-logo-1.svg" alt="">
-              </div>
-              <div class="single-brand " data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
-                <img src="image/l8/brand-logo-2.svg" alt="">
-              </div>
-              <div class="single-brand " data-aos="fade-right" data-aos-duration="900" data-aos-once="true">
-                <img src="image/l8/brand-logo-3.svg" alt="">
-              </div>
-              <div class="single-brand " data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                <img src="image/l8/brand-logo-4.svg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Testimonial Area-->
-    <div class="testimonial-area-l-17">
-      <div class="container">
-        <div class="row justify-content-center no-gutters border-collapse-1">
-          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
-            <div class="testimonial-card border h-100">
-              <img src="image/l8/quote.png" alt="">
-              <p>
-                “You made it so simple. My new site is so much faster and
-                easier to work with than my old site. I just choose the page, make the change and click save. ”
-              </p>
-              <div class="d-flex align-items-center">
-                <div class="customer-img mr-4">
-                  <img src="image/l8/client-img-1.png" alt="">
-                </div>
-                <div class="user-identity">
-                  <h5>Sallie Lawson</h5>
-                  <span>Founder of Crips</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
-            <div class="testimonial-card border h-100">
-              <img src="image/l8/quote.png" alt="" class="mb-12">
-              <p>
-                “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
-              </p>
-              <div class="d-flex align-items-center">
-                <div class="customer-img">
-                  <img src="image/l8/client-img-2.png" alt="">
-                </div>
-                <div class="user-identity">
-                  <h5>Sallie Lawson</h5>
-                  <span>Founder of Crips</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-9 p-0">
-            <div class="testimonial-card border h-100">
-              <img src="image/l8/quote.png" alt="" class="mb-12">
-              <p>
-                “This is a top quality product. No need to think twice before purchasing, you simply could not go wrong”
-              </p>
-              <div class="d-flex align-items-center">
-                <div class="customer-img mr-4">
-                  <img src="image/l8/client-img-3.png" alt="">
-                </div>
-                <div class="user-identity">
-                  <h5>Sallie Lawson</h5>
-                  <span>Founder of Crips</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--CTA Area-->
-    <div class="cta-area-l-17">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="d-md-flex justify-content-between text-align-lg-start text-center align-items-center">
-              <h2>Manage your team in one place</h2>
-              <a href="#" class="btn">Start free 14 days trial</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Footer Area-->
-    <footer class="footer-area-l-17 position-relative">
-      <div class="footer-shape">
-        <img src="image/l8/footer-shape.svg" alt="">
-      </div>
-      <div class="container pt-lg-23 pt-15 pb-12">
-        <div class="row footer-area-l-17-items justify-content-between" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-          <div class="col">
-            <div class="footer-widget widget2">
-              <p class="widget-title">Store</p>
-              <ul class="widget-links pl-0 list-unstyled ">
-                <li><a href="">Catalog</a></li>
-                <li><a href="">Popular</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">F.a.q.</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col">
-            <div class="footer-widget widget3">
-              <p class="widget-title">About</p>
-              <ul class="widget-links pl-0 list-unstyled ">
-                <li><a href="">Catalog</a></li>
-                <li><a href="">Popular</a></li>
-                <li><a href="">Features</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col">
-            <div class="footer-widget widget4">
-              <p class="widget-title">Policy</p>
-              <ul class="widget-links pl-0 list-unstyled ">
-                <li><a href="">Catalog</a></li>
-                <li><a href="">Popular</a></li>
-                <li><a href="">Features</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col">
-            <div class="footer-widget widget4">
-              <p class="widget-title">Team</p>
-              <ul class="widget-links pl-0 list-unstyled ">
-                <li><a href="">Catalog</a></li>
-                <li><a href="">Popular</a></li>
-                <li><a href="">Features</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col">
-            <div class="footer-widget widget4">
-              <p class="widget-title">Support</p>
-              <ul class="widget-links pl-0 list-unstyled ">
-                <li><a href="">Catalog</a></li>
-                <li><a href="">Popular</a></li>
-                <li><a href="">Features</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- footer-bottom start -->
-      <div class="copyright-area-l-17 text-center text-md-start">
+<body>
+    <header class="foi-header landing-header">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-4 col-md-4">
-              <div class="copyright">
-                <p> &copy; Grayic 2020 All right reserved. </p>
-              </div>
+            <nav class="navbar navbar-expand-lg navbar-light foi-navbar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.svg" alt="FOI">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html">Features</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                            <div class="dropdown-menu" aria-labelledby="pagesMenu">
+                                <a class="dropdown-item" href="blog.html">Blog</a>
+                                <a class="dropdown-item" href="login.html">Login</a>
+                                <a class="dropdown-item" href="register.html">Register</a>
+                                <a class="dropdown-item" href="faq.html">FAQ</a>
+                                <a class="dropdown-item" href="404.html">404</a>
+                                <a class="dropdown-item" href="careers.html">Careers</a>
+                                <a class="dropdown-item" href="blog-single.html">Single blog</a>
+                                <a class="dropdown-item" href="privacy-policy.html">Privacy policy</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item mr-2 mb-3 mb-lg-0">
+                            <a class="btn btn-secondary" href="register.html">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-secondary" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Great app that makes your life awesome</h1>
+                        <p class="text-dark">He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement.</p>
+                        <button class="btn btn-primary mb-4">Get Started</button>
+                        <div class="my-2">
+                            <p class="header-app-download-title">GET OUR MOBILE APP</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-app-download mr-2"><img src="assets/images/ios.svg" alt="App store"></button>
+                            <button class="btn btn-app-download"><img src="assets/images/android.svg" alt="play store"></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/app_1.png" alt="app" width="388px" class="img-fluid">
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-5 col-md-6">
-              <div class="footer-menu">
-                <ul class="list-unstyled d-flex flex-wrap justify-content-center">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li> <a href="#features">Terms & Conditions</a> </li>
-                  <li><a href="#features"> Site map</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-2">
-              <div class="social-icons text-md-end">
-                <ul class="pl-0 list-unstyled">
-                  <li class="d-inline-block"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                  <li class="d-inline-block"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                  <li class="d-inline-block"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+    </header>
+    <section class="py-5 mb-5">
+        <div class="container">
+            <h2 class="section-title">Application Features</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5>Secure Data</h5>
+                    <p class="text-dark">No matter what kind of home you have to share, you can increase your earnings.</p>
+                    <p class="mb-5"><a href="#!" class="text-primary mb-5">Find out More</a></p>
+                    <h5>Fully functional</h5>
+                    <p class="text-dark">No matter what kind of home you have to share, you can increase your earnings.</p>
+                    <p class="mb-5"><a href="#!" class="text-primary mb-5">Find out More</a></p>
+                </div>
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <h5>Live Chat</h5>
+                    <p class="text-dark">No matter what kind of home you have to share, you can increase your earnings.</p>
+                    <p class="mb-5"><a href="#!" class="text-primary mb-5">Find out More</a></p>
+                    <h5>Powerful dashboard</h5>
+                    <p class="text-dark">No matter what kind of home you have to share, you can increase your earnings.</p>
+                    <p class="mb-5"><a href="#!" class="text-primary mb-5">Find out More</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="text-gray font-os font-weight-semibold">Trusted by the world's best</h6>
+                    <div id="landingClientCarousel" class="carousel slide landing-client-carousel" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="d-flex flex-wrap justify-content-center">
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/slack.svg" alt="Slack" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/spotify.svg" alt="Spotify" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/amazon.svg" alt="Amazon" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/google.svg" alt="Google" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/samsung.svg" alt="Samsung" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex flex-wrap justify-content-center">
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/slack.svg" alt="Slack" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/spotify.svg" alt="Spotify" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/amazon.svg" alt="Amazon" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/google.svg" alt="Google" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/samsung.svg" alt="Samsung" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex flex-wrap justify-content-center">
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/slack.svg" alt="Slack" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/spotify.svg" alt="Spotify" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/paypal.svg" alt="Paypal" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/amazon.svg" alt="Amazon" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/google.svg" alt="Google" class="img-fluid">
+                                    </div>
+                                    <div class="clients-logo">
+                                        <img src="assets/images/clients/samsung.svg" alt="Samsung" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#landingClientCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#landingClientCarousel" data-slide-to="1"></li>
+                            <li data-target="#landingClientCarousel" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <img src="assets/images/app_2.png" alt="special offers" class="img-fluid" width="492px">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="section-title">Get special offers on the things you love</h2>
+                    <p class="mb-5">He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement. For many, however, the campaign has become less about backing Macron and instead about voting against Le Pen, the National Front candidate.</p>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Essentials</h5>
+                                    <p>All the basics for businesses that are just getting started.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Premium</h5>
+                                    <p>All the basics for businesses that are just getting started.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="media landing-feature">
+                                <span class="landing-feature-icon"></span>
+                                <div class="media-body">
+                                    <h5>Standard</h5>
+                                    <p>All the basics for businesses that are just getting started.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 mb-5">
+        <div class="container">
+            <h2>Choose the plan that’s right for yor business</h2>
+            <p class="text-muted mb-5">Thank you for your very professional and prompt response. I wished I had found you before </p>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card border-warning">
+                        <div class="card-body">
+                            <h3 class="mb-1">Starter</h3>
+                            <h3 class="mb-1 text-warning">Free</h3>
+                            <p class="payment-period">Per month</p>
+                            <p class="mb-4">Thank you for your very professional and prompt response.</p>
+                            <button class="btn btn-outline-warning btn-rounded">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card border-primary active">
+                        <div class="card-body">
+                            <h3>Popular</h3>
+                            <h3 class="text-primary">$23.00</h3>
+                            <p class="payment-period">Per month</p>
+                            <p class="mb-4">Thank you for your very professional and prompt response.</p>
+                            <button class="btn btn-primary btn-rounded">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card pricing-card border-success">
+                        <div class="card-body">
+                            <h3>Enterprise</h3>
+                            <h3 class="text-success">$40.00</h3>
+                            <p class="payment-period">Per month</p>
+                            <p class="mb-4">Thank you for your very professional and prompt response.</p>
+                            <button class="btn btn-outline-success btn-rounded">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 mb-5">
+        <div class="container">
+            <h2>Satisfied Users</h2>
+            <p class="text-muted mb-5">Thank you for your very professional and prompt response. I wished I had found you before </p>
+            <div class="row">
+                <div class="col-md-4 foi-review mb-5 mb-md-0">
+                    <div class="foi-rating">
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                    </div>
+                    <h5 class="foi-review-heading">Great support available</h5>
+                    <p class="foi-review-content">Thank you for your very professional and prompt response. I wished I had found you before I spent money on a competitors theme.</p>
+                    <div class="media foi-review-user">
+                        <img src="assets/images/avatar/avatar_11.jpg" alt="user" class="avatar">
+                        <div class="media-body">
+                            <h6 class="mb-0">Amarachi Nkechi</h6>
+                            <p>UX Designer</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 foi-review mb-5 mb-md-0">
+                    <div class="foi-rating">
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                    </div>
+                    <h5 class="foi-review-heading">Great support available</h5>
+                    <p class="foi-review-content">Thank you for your very professional and prompt response. I wished I had found you before I spent money on a competitors theme.</p>
+                    <div class="media foi-review-user">
+                        <img src="assets/images/avatar/avatar_12.jpg" alt="user" class="avatar">
+                        <div class="media-body">
+                            <h6 class="mb-0">Margje Jutten</h6>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 foi-review mb-5 mb-md-0">
+                    <div class="foi-rating">
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                        <span class="fas fa-star checked"></span>
+                    </div>
+                    <h5 class="foi-review-heading">Great support available</h5>
+                    <p class="foi-review-content">Thank you for your very professional and prompt response. I wished I had found you before I spent money on a competitors theme.</p>
+                    <div class="media foi-review-user">
+                        <img src="assets/images/avatar/avatar_13.jpg" alt="user" class="avatar">
+                        <div class="media-body">
+                            <h6 class="mb-0">Monica Böttger</h6>
+                            <p>UX Designer</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 mb-5">
+        <div class="container">
+            <h2>FAQ</h2>
+            <p class="section-subtitle">Frequently Asked Questions</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqOneTitle">
+                            <a href="#faqOneCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">What is Foi app?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqOneCollapse" class="collapse" aria-labelledby="faqOneTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqTwoTitle">
+                            <a href="#faqTwoCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Why should I use Foi app?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqTwoCollapse" class="collapse" aria-labelledby="faqTwoTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqThreeTitle">
+                            <a href="#faqThreeCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">How can I use Foi app?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqThreeCollapse" class="collapse" aria-labelledby="faqThreeTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqFourTitle">
+                            <a href="#faqFourCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Who will see my updates?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqFourCollapse" class="collapse" aria-labelledby="faqFourTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqFiveTitle">
+                            <a href="#faqFiveCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Can people see my connections?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqFiveCollapse" class="collapse" aria-labelledby="faqFiveTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqSixTitle">
+                            <a href="#faqSixCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Being a user, what all rights I have?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqSixCollapse" class="collapse" aria-labelledby="faqSixTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="foi-footer text-white">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-xl-6 col-lg-7 col-md-8">
+                    <h2 class="mb-0">Do you want to know more or just have a question? write to us.</h2>
+                </div>
+                <div class="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
+                    <a href="contact.html" class="btn btn-danger btn-lg">Contact form</a>
+                </div>
+            </div>
+            <div class="row footer-widget-area">
+                <div class="col-md-3">
+                    <div class="py-3">
+                        <img src="assets/images/logo-white.svg" alt="FOI">
+                    </div>
+                    <p class="font-os font-weight-semibold mb3">Get our mobile app</p>
+                    <div>
+                        <button class="btn btn-app-download mr-2"><img src="assets/images/ios.svg" alt="App store"></button>
+                        <button class="btn btn-app-download"><img src="assets/images/android.svg" alt="play store"></button>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <nav>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">My tasks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Edit profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Activity</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <nav>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Careers <span class="badge badge-pill badge-secondary ml-3">Hiring</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Shop with us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <p>
+                        &copy; foi. 2020 <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash</a>.
+                    </p>
+                    <p>All rights reserved.</p>
+                    <nav class="social-menu">
+                        <a href="#!"><img src="assets/images/facebook.svg" alt="facebook"></a>
+                        <a href="#!"><img src="assets/images/instagram.svg" alt="instagram"></a>
+                        <a href="#!"><img src="assets/images/twitter.svg" alt="twitter"></a>
+                        <a href="#!"><img src="assets/images/youtube.svg" alt="youtube"></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </footer>
-  </div>
-  <!-- Vendor Scripts -->
-  <script src="js/vendor.min.js"></script>
-  <!-- Plugin's Scripts -->
-  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
-  <script src="./plugins/aos/aos.min.js"></script>
-  <script src="./plugins/menu/menu.js"></script>
-  <!-- Activation Script -->
-  <script src="js/custom.js"></script>
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/popper.js/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
